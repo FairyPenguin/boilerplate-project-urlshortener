@@ -32,7 +32,7 @@ app.get("/api/hello", function (req, res) {
 let urlsMap = {};
 
 let shortUrlId = 1;
-console.log(urlsMap);
+// console.log(urlsMap);
 
 // GET
 app.get("/api/shorturl/:shorturl", (req, res) => {
